@@ -1,12 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 import streamlit as st
 import pickle
-import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 
 # Load the saved model
@@ -49,10 +42,3 @@ if st.button("Predict"):
     plt.imshow(wc, interpolation='bilinear')
     plt.axis("off")
     st.pyplot(plt)
-
-
-# In[ ]:
-
-
-
-
