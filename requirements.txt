@@ -2,3 +2,4 @@ streamlit
 wordcloud
 matplotlib
 sklearn
+pickle
