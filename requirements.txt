@@ -2,3 +2,4 @@ streamlit
 wordcloud
 matplotlib
 joblib
+scikit-learn==1.1.2
